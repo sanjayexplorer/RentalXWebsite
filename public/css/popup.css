@@ -1,0 +1,315 @@
+.car_book__input_icon svg
+/* calander datepicker styling starts here */
+.daterange.date_range_inner .ui-widget-content .ui-state-default {
+    background: #ffffff;
+    border: none;
+    text-align: center;
+    border-radius: 100%;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.daterange.date_range_inner  .ui-widget-content .ui-state-active {
+    background: #f3cd0e;
+    color: #ffffff;
+}
+
+
+
+.datepicker_sec .hasDatepicker .ui-datepicker td a{
+    line-height: 0;
+}
+
+#open_popup { display: none; max-width: 800px; padding: 38px; overflow: hidden; width: 100%; position: relative; border-radius: 8px !important; }
+
+#open_popup{ padding-top: 60px !important; }
+
+.head_sec{ margin-left: 10px; } 
+
+.dapicker_val_text { margin-top: 2px; font-size: 14px; }
+
+.control_btns .pickup_save , .control_btns .drop_save {background-color:rgba(243, 205, 14, 1); min-width: 155px; padding: 10px 10px;margin-top: 20px;border-radius: 4px;}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, 
+.ui-button:hover, .ui-button:focus { background: none; border: none; }
+
+.ui-datepicker-next.ui-corner-all>span.ui-icon.ui-icon-circle-triangle-e{ display: none; }
+
+.ui-datepicker-prev.ui-corner-all>span.ui-icon.ui-icon-circle-triangle-w{ display: none; }
+
+.datepicker-next span{ display: none; } 
+
+.close_popup_b { text-align: right; } 
+
+.close_popup_link { display: inline-block; font-family: inherit; font-weight: 400; font-size: 14px; text-decoration: underline; color: #000000; position: relative; top: -20px; padding: 3px; cursor: pointer; }
+
+.form_section_b_inner { display: flex; flex-direction: column; justify-content: center; width: 100%; height: 100%; }
+
+.car_book_form_b.current { display: block; }
+
+.car_book_form_b { display: none; } 
+
+.car_book__input_box { display: flex; margin: 0 -10px; padding-bottom: 10px; flex-wrap: wrap; position: relative; }
+
+.car_book__input_box:before { display: block; content: ''; position: absolute; border-radius: 10px; top: 0; left: 10px; height: 59px; transition: inset 0.3s ease; -moz-transition: inset 0.3s ease; -ms-transition: inset 0.3s ease; -o-transition: inset 0.3s ease; }
+
+.pickup::before { border: 2px solid #f3cd0e; inset: auto calc(50% + 10px) auto 10px; } 
+
+.book_car_input { width: 50%; padding: 0 10px; } 
+
+.book_car_click_area { display: block; border-radius: 6px; padding: 10px; position: relative; border: 1px solid #E2E1E1; border-radius: 5px; } 
+
+.pickup .tab_item_pickup { border-radius: 10px; border-color: #ffffff00; }
+
+.car_book__input_text { width: 100%; display: flex; align-items: center; padding: 13px 10px 0px; } 
+
+.book_car_input .car_book__input_text { width: 100%; padding: 0; /* background: #fff; */ border: none; } 
+
+.car_book__input_icon svg {  display: block; }
+
+.car_book__input_val .dapicker_val_text { font-weight: 400; color: #000000; line-height: 1; margin: 0; } 
+
+.car_book__input_val .dapicker_val_text span { display: block; color: #a7adb8; line-height: 1; }
+
+.datepicker_calender_sec { position: relative; background: #fff; overflow: hidden; }
+
+.datepicker_sec { -webkit-box-shadow: 0px 1px 18px -3px #0000001f; -moz-box-shadow: 0px 1px 18px -3px #0000001f; box-shadow: 0px 1px 18px -3px #0000001f; border-radius: 5px; border: 1px solid rgba(226, 225, 225, 1); } 
+
+.calendar_pickup, .calendar_drop { position: absolute; left: 0; top: 0px; width: 100%; min-height: 100px; background: rgb(255, 255, 255); transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; padding: 20px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; border-radius: none; }
+
+.calendar_pickup { left: 0; z-index: 2; opacity: 0; } 
+
+.calendar_pickup.active { left: 0; opacity: 1; position: relative; }
+
+.datepicker_inner_b, .datepicker_inner_b2 { display: flex; margin: 0 -30px; flex-direction: row; flex-wrap: wrap; } 
+
+.datepicker_inner { width: 52%; border-right: 1px solid #D9D9D9; padding: 0 30px; } 
+
+.datepicker_inner .ui-widget.ui-widget-content { border: none; font-size: 16px; width: 90%; }
+
+.datepicker_inner .ui-widget { font-family: inherit; }
+
+.datepicker_inner .ui-widget-header { background: #ffffff; border: none; }
+
+.datepicker_inner .ui-datepicker-calendar thead {border-bottom: 1px solid #d9d9d9;}
+
+.datepicker_inner .ui-datepicker th { color: #59B2DD; font-weight: 400; }
+
+.datepicker_inner .ui-widget-content .ui-state-default { background: #ffffff; border: none; text-align: center; border-radius: 100%; padding: 6px; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; margin: auto; } 
+
+.calendar_drop { background: #ffffff; left: 250px; opacity: 0; }
+
+.datepicker_sec_b { position: relative; transform: translateY(0); } 
+
+.pickup_drop { position: relative; width: 100%; /* overflow: hidden; */ } 
+
+.pickup_drop.active { z-index: 1; } .datepicker_tab_sec { padding: 0 10px; position: relative; z-index: 10; display: none; } 
+
+.datepicker_tab__inner_b { display: flex; margin: 0 -10px; border-radius: 5px 5px 0 0; background-color: #ffffff; }
+
+.datepicker_tab__content { width: 50%; text-align: left; padding: 5px 10px; } 
+
+.datepicker_tab__btn { border: 1px solid #E2E1E1; border-radius: 5px; padding: 5px 10px; cursor: pointer; } 
+
+.datepicker_tab__btn span { display: block; font-size: 14px; color: #000; line-height: 1; font-weight: 600; }
+
+.datepicker_tab__btn p { width: 100%; display: block; font-size: 12px; background: transparent; font-weight: 400; color: #000000; line-height: 1.5; } 
+
+.datepicker_tab__btn p span { display: block; color: #a7adb8; line-height: 1.5; font-size: 12px; font-weight: 400; } 
+
+.notice_sec { display: none; } .notice_sec_b { display: flex; align-items: center; } 
+
+.notice_sec__icon { width: 20px; height: 20px; display: block; } 
+
+.notice_sec__icon img { display: block; width: 18px; } 
+
+.notice_sec__message { font-size: 12px; color: #ff0000; padding-left: 5px; } 
+
+.next_btn_b, .go_back_link { text-align: center; margin-top: 24px; } 
+
+.flexdatalist-results { border: 1px solid #dee2e6 !important; margin: 0 !important; } 
+
+/* .datepick_area_b { position: absolute; bottom: 0; transform: translateY(100%); } */ 
+
+.timepicker_sec { width: 45%; padding: 0 30px; display: flex; flex-direction: column; justify-content: space-between; }
+
+.timepicker_inner { display: flex; flex-direction: column; align-items: center; height: 100%; }
+
+.timepicker_b { display: flex; align-items: center; height: 100%; margin: 0 -10px; }
+
+.control_btns { text-align: right; } .time_show_box { display: flex; flex-direction: column; justify-content: center; text-align: center; padding: 0 10px; } 
+
+.time_divid { padding: 5px 0; line-height: 1; font-size: 24px; font-weight: 700; } 
+
+.count_up, .count_down { cursor: pointer; display: flex; justify-content: center; align-items: center; padding: 10px; } 
+
+.count_up img, .count_down img { width: 20px; height: 20px; } 
+
+.time_block input { width: 63px; height: 63px; background-color: #F1F1F1; padding: 5px; outline: none; text-align: center; font-size: 24px; font-weight: 700; } 
+
+.count_down img { transform: rotate(180deg); } 
+
+.timepicker_sec { width: 48%; padding: 0 30px; display: flex; flex-direction: column; justify-content: space-between; } 
+
+.ui-datepicker .ui-datepicker-header { position: relative; padding: .2em 0; } 
+
+.datepicker_inner .ui-datepicker .ui-datepicker-prev { top: 0; left: unset; right: 40px; background-image: url(../images/top-angle.svg); background-position: center; background-repeat: no-repeat; background-position: center; background-size: 16px; transform: rotate(-90deg); cursor: pointer; } 
+
+.datepicker_inner .ui-datepicker-next { top: 0; background-image: url(../images/top-angle.svg); background-position: center; background-repeat: no-repeat; background-position: center; background-size: 16px; transform: rotate(90deg); cursor: pointer; } 
+
+.datepicker_inner .ui-datepicker .ui-datepicker-title { margin: 0; text-align: left; }
+
+.datepicker_inner .ui-datepicker select.ui-datepicker-month, .datepicker_inner .ui-datepicker select.ui-datepicker-year { width: auto; position: relative; outline: none; font-family: 'Lato', sans-serif; cursor: pointer; appearance: none; background: #ffff url(../images/down-arrow.svg); background-repeat: no-repeat; background-position: right; background-size: 12px; padding: 0 16px 0 0; display: inline-block; } 
+
+.datepicker_inner .ui-datepicker select.ui-datepicker-month { margin-right: 10px; } 
+
+.datepicker_inner .ui-datepicker select.ui-datepicker-month option { font-weight: 600; cursor: pointer; } 
+
+.datepicker_inner .ui-widget-content .ui-state-active { background: #f3cd0e; color: #333333; } 
+
+.parsley-required,.parsley-errors-list>li{ color: #f00; font-size: 14px; } 
+
+.parsley-errors-list{ list-style: none; margin: 0; padding: 0; } 
+
+.calendar_drop.active { left: 0; opacity: 1; z-index: 5; position: relative; } 
+
+.drop .tab_item_drop { border-radius: 10px; border-color: #e2e1e100; } 
+
+.book_car_click_area::after { position: absolute; content: ""; top: 0; bottom: 0; right: 10px; height: 18px; width: 18px; background-image: url("../images/top-angle.svg"); background-position: center; background-repeat: no-repeat; background-size: 15px; margin: auto 0; transform: rotate(180deg); }
+
+.car_book__input_box:before { display: block; content: ''; position: absolute; border-radius: 10px; top: 0; left: 10px; height: 59px; transition: inset 0.3s ease; -moz-transition: inset 0.3s ease; -ms-transition: inset 0.3s ease; -o-transition: inset 0.3s ease; }
+
+.drop::before { border: 2px solid #f3cd0e; inset: auto 10px auto calc(50% + 10px); } 
+
+#pickup_date,#dropoff_date{ display: none; } 
+
+.form-navigation{ margin:30px 0 0 0; text-align: center; } 
+
+.fare_info_view_b { display: flex; flex-wrap: wrap; margin: 0 -10px; padding-bottom: 40px; } 
+
+.fare_info_view__elements { width: 25%; padding-bottom: 24px; padding: 0 10px 10px; }
+
+.car_book__input_text { width: 100%; display: flex; align-items: center; padding: 13px 10px 0px; } 
+
+.fare_info_view__elements .car_book__input_text { padding: 0; } 
+
+.fare_info_view__elements .car_book__input_text { padding-bottom: 5px; } 
+
+.fare_info_text { width: 100%; outline: none; font-size: 12px; color: #969696; line-height: 1; display: block; word-wrap: break-word; margin: 0; }
+
+.calendar_pickup.inactive { opacity: 0; left: -250px; }
+
+.close_popup, .close_popup_fancy{ position: absolute; top: 16px; right: 35px; background: transparent; border: none; text-decoration: none; font-size: 15px; text-transform: uppercase; cursor: pointer; color: #000; transition: inset 0.3s ease; -moz-transition: inset 0.3s ease; -ms-transition: inset 0.3s ease; -o-transition: inset 0.3s ease; } 
+
+.close_popup:hover, .close_popup_fancy:hover{ color:rgb(243 205 14); }
+
+
+
+@media only screen and (max-width:767px){
+
+.close_popup, .close_popup_fancy { right: 10px; } #open_popup{ max-width:70%; } 
+
+.open__popup__btn { width: auto; display: inline-block; }
+
+.book_car_input { width: 100%; padding-bottom: 20px; } 
+
+.drop .tab_item_drop { border-radius: 5px; border: 1px solid #E2E1E1; border-color: #E2E1E1; } 
+
+.pickup .tab_item_pickup{ border-color: #E2E1E1; } 
+
+.datepick_area_b { position: fixed; top: 0; bottom: 0; left: 0; right: 0; height: 100%; padding: 0 5px; width: 100%; z-index: -1; transform: translateY(100%); } 
+
+.datepicker_sec_b { z-index: 1; transform: translateY(0); margin: auto; z-index: 2; display: flex; align-items: center; } 
+
+.datepicker_inner { width: 100%; border-right: 1px solid #D9D9D9; padding: 0 30px; } 
+
+.timepicker_sec { width: 100%;padding-top: 20px; } 
+
+.datepicker_inner .ui-widget.ui-widget-content { border: none; font-size: 16px; width: 100%; } 
+
+.time_block input { width: 45px; height: 45px; font-size: 18px; } 
+
+.head_sec { font-size: 16px; } .datepicker_tab_sec{ display: block; } 
+
+.timepicker_inner { flex-direction: row; justify-content: space-between; } 
+   
+.datepicker_tab__btn p { margin: 0; } 
+
+/* .datepicker_tab__inner_b { padding-top: 15px; } */
+
+#open_popup { padding: 15px; padding-bottom: 40px; } 
+
+.close_popup, .close_popup_fancy { right: 10px; } 
+
+.datepicker_tab__inner_b:before { display: block; content: ''; position: absolute; border-radius: 5px; top: 0; margin-top: 5px; left: 10px; height: 44px; transition: inset 0.3s ease; -moz-transition: inset 0.3s ease; -ms-transition: inset 0.3s ease; -o-transition: inset 0.3s ease; }
+
+.pickup_tab::before { border: 2px solid #f3cd0e; inset: auto calc(50% + 10px) auto 10px; } 
+
+.drop_tab::before { border: 2px solid #f3cd0e; inset: auto 10px auto calc(50% + 10px); }
+
+.fare_info_view__elements { width: 50%; } 
+
+.fare_info_text { margin: 0 0 10px 0; } 
+
+.iti--container { z-index: 99999 !important; } 
+
+.datepicker_calender_sec{ border-radius: 0 0 5px 5px; }
+
+.otp-field { width: 90%; } .car_book__input_text .head_sec { padding-left: 3px; }
+
+.pickup::before { border: none;} 
+.datepicker_sec {border: none;margin-bottom: 20px;}
+
+
+
+/* .control_btns{
+    display: flex;
+    width: 100%;
+
+} */
+}
+
+@media only screen and (max-width:479px){
+
+    #open_popup{max-width:90%;} 
+
+    /* .control_btns{
+        display:flex;
+        width: 100%;
+    } */
+
+    .control_btns{
+
+        display: flex; width: 100%;margin-top: 30px;
+        justify-content:center;
+    }
+
+    .control_btns .pickup_save, .control_btns .drop_save{ margin-left: 12px; margin-top: 0px; padding: 7px 7px; min-width: 83px; } 
+
+    .count_up, .count_down{ padding: 6px; }
+
+    .timepicker_inner { flex-direction: column; justify-content: space-between; align-items: center; } 
+
+
+    /* calender page changes for mobile*/
+    .datepick_area_b { padding: 0px 10px; }
+
+    .datepicker_sec {  margin-bottom: 0; }
+
+    .control_btns { margin-top: 15px;  }
+
+    .calendar_pickup, .calendar_drop {  padding: 10px; }
+
+    .timepicker_sec { padding-top: 5px; }
+
+    .close_popup{padding: 10px; right: 0; top:0;}
+    /* end */
+
+}

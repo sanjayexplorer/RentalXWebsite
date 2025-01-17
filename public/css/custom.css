@@ -1,0 +1,20 @@
+ .swal2-actions .swal2-styled.swal2-confirm {
+     background: #ffb600;
+     border-radius: 25px;
+     border: none;
+ }
+ .btn_confirmation button.swal2-confirm {
+    width: 60%;
+    box-shadow: none !important;
+    background: #ffb600;
+ }
+
+
+ .btn_confirmation {
+     width: 100% !important;
+ }
+
+ .swal2-actions .swal2-styled.swal2-cancel{
+    border-radius: 25px;
+    background-color: #ff7878;
+ }

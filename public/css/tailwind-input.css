@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  .swal2-container {
+    font-size: 100%; /* Or any desired value */
+  }
+
+  html.swal2-shown.swal2-height-auto .swal2-container{
+    font-size: 1rem !important;
+  }
+
+    /* swal popup styling  */
+
+    .popup_updated{
+      padding: 20px !important;
+      max-width: 100% !important;
+      width: 375px !important;
+      border-radius: 12px !important;
+    } 
+
+    .swal2-shown.swal2-height-auto .swal2-popup{
+      font-size: 16px!important;
+    }
+
+    .popup_updated div:where(.swal2-icon),html div:where(.swal2-icon){
+      font-size: 16px!important;
+    }
+
+    .popup_updated .div:where(.swal2-container) button:where(.swal2-styled) {
+      padding: 8px 20px !important;
+    }
+
+
+
+    .btn_confirmation button.swal2-confirm{
+      width: 60%;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .popup_updated div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{
+      background-color:#58AF5C;
+
+    }
+
+
+    .popup_updated  .swal2-success-ring{
+      border: 0.25em solid #58AF5C !important; 
+    }
+
+
+    /* swal error icon styling */
+
+    /* html .swal2-icon.swal2-error.swal2-icon-show{
+      font-size: 16px!important;
+    } */
+
+    
+
+    html div:where(.swal2-icon).swal2-error {
+      font-size: 16px!important;
+    }
+
+    html .swal2-confirm.swal2-styled,.swal2-cancel.swal2-styled{
+      font-size: 14px !important;
+    }
+
+    html .div:where(.swal2-icon) {
+      font-size: 14px !important;
+    }
+
+    /* html.swal2-shown .div:where(.swal2-icon).swal2-success .swal2-success-ring{
+      border: 0.25em solid #58AF5C;
+    } */
+
+    /* html.swal2-shown .swal2-container div:where(.swal2-icon).swal2-success {
+      border-color: #58AF5C;
+      color: #58AF5C;
+  } */
+
+    div:where(.swal2-icon).swal2-success .swal2-success-ring{
+      border: 0.25em solid #58AF5C !important;
+    }
+
+
+    /* html .swal2-icon.swal2-success .swal2-success-ring {
+      border: 0.25em solid #58AF5C !important;
+  } */
+
+
+
+
+  
+    body {
+      font-size: 1.6rem;
+      font-family: 'Roboto', sans-serif;
+    }
+     /* for selected and current selected cell  */
+    .daterange  .datepicker--cell.-selected-,
+    .mobile_datepicker_sec .datepicker--cell.-selected-,
+     .daterange .datepicker--cell.-selected-.-current-,
+     .mobile_datepicker_sec .datepicker--cell.-selected-.-current-{
+      color: #fff;
+      background: #F3CD0E;
+    }
+    .daterange .datepicker--cell.-in-range-,
+    .mobile_datepicker_sec .datepicker--cell.-in-range- {
+      background:#FFFBE9;
+    }
+
+    .custom-shadow{
+      box-shadow: 1px 6px 21px 4px #00000012;
+    }
+  
+  }
+
+
+  
+@layer components {
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .status{
+      position: relative;
+      padding:6px 0 ;
+      padding-left: 11px;
+      color: #449E2E;
+      font-weight: 400;
+      background: #ECF9E2;
+      border-radius:39px;
+      width: 75px;
+    }
+
+    .status_inactive{
+      width: 91px;
+      color: #E8971F;
+      background: #FFF3D2;
+      padding-left: 4px;
+    }
+
+    .status:before {
+      content: '';
+      position: absolute;
+      top: 12px;bottom:0;left:9px;
+      background: #449E2E;
+      width: 8px;height: 8px;border-radius: 50%;
+
+    } 
+
+    .status_inactive:before{
+      background: #E8971F;
+    }
+
+
+
+    /* .status {
+      @apply relative py-[6px] pr-[10px] pl-5 tab:py-1 tab:pr-[10px] tab:pl-[18px] text-[#386CA9] text-xs tab:text-sm font-normal rounded-3xl bg-[#EAF2FF];
+  }
+
+  .status:before {
+    @apply absolute content-[''] bg-[#386CA9] top-[10px] bottom-0 left-2 w-[6px] h-[6px] rounded-[50%];
+  } */
+
+
+    /* a.locked .range_active::before {
+      content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40%;
+    margin: auto;
+    background: url(../images/locked.svg) no-repeat;
+    width: 22px;
+    height: 20px;
+    display: inline-block; 
+    } */
+
+    @media screen and (max-width: 767px){
+      /* a.locked .range_active::before {
+        content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 37%;
+      margin: auto;
+      background: url(../images/locked.svg) no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; 
+      } */
+
+    }
+
+    @media screen and (max-width:479px){
+      .popup_updated{
+        width: 320px !important;
+      }
+
+    }
+
+    
+
+}

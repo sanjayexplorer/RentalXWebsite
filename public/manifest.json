@@ -1,0 +1,58 @@
+{
+    "name": "RentalX",
+    "short_name": "RentalX",
+    "start_url": "/index.php",
+    "background_color": "#F3CD0E",
+    "description": "Manage your fleet like a pro",
+    "display": "standalone",
+    "orientation":"portrait",
+    "theme_color": "#F3CD0E",
+    "icons": [
+        {
+            "src": "/public/images/icon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-284x284.png",
+            "sizes": "284x284",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ]
+}

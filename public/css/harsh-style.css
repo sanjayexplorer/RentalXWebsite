@@ -1,0 +1,96 @@
+/*////////////// Desktop filter Component ///////////////*/
+.content_left_btn_sec{ width: 100%; }
+
+.about_car_para {  padding-left: 5px;  }
+
+.datepicker{ width:99.3%; }
+/*.scroller {width: 100%;} */
+.scroller::-webkit-scrollbar { width: .3em; }
+
+.scroller::-webkit-scrollbar, .scroller::-webkit-scrollbar-thumb { overflow: visible; border-radius: 20px 20px 0 0; }
+
+.scroller::-webkit-scrollbar-thumb { overflow: visible; background: rgba(0, 0, 0, .2); border-radius: 20px 20px 0 0; }
+ /*universal classes  */
+ .justify-evenly{ justify-content: space-between; }
+
+ .gap-3{ gap:12px; }
+
+ .m-auto{ margin: auto; }
+
+ .justify-center{ justify-content: center; }
+
+ .break-all{ word-break: break-all; }
+/*  */
+.adj_image_size{ width: 100%; height:100%; object-fit: contain; /* height:160px; */}
+
+.upload_Height{ height: 160px; padding: 10px; }
+
+.top-3{ top:12px;}
+
+.px-3{ padding-left:12px; padding-right: 12px; }
+
+.pt-8{ padding-top: 32px; }
+
+.px-8{ padding-left: 32px; padding-right: 32px; }
+
+.pb-1{ padding-bottom: 4px; }
+
+.search_and_clear_sections{
+    margin-left: 10px;
+}
+
+/* new desktop filtering css  */
+.filter_width_l{width: 77%;padding-right: 35px;}
+.filter_width_r{width: 23%;text-align: right;justify-content: end;}
+
+.filter_out_row{padding-top: 10px;flex-wrap: wrap;padding-bottom: 20px;}
+.create_new_bt{padding: 11px 20px;
+    min-width: 166px;}
+
+.filter_bt_sr{ min-width: 146px; }
+
+.filter_width_r .item_content_box {
+    flex-basis: auto;
+    padding-right: 0;
+}
+
+.head_title {font-size: 30px;font-weight: 500;}
+
+.clear_filt_bt{margin-left: 10px;border-radius:8px; }
+
+.drop_down_fillter_3 li:last-child .chckbox_out_x {
+border-bottom:0 ;
+}
+
+.drop_down_fillter_2 li:last-child .chckbox_out_x {
+border-bottom:0 ;
+}
+.chckbox_out_x {padding: 10px 15px;}
+
+.out_cre_book {
+padding: 0px 0 25px;
+}
+
+.item_content_box {
+    flex-basis: 25%;
+    padding-right: 15px;
+}
+
+.filter_width_l .item_content_box:last-child{
+    padding-right: 0px;
+}
+.booking_inner_b {
+    box-shadow: none !important;
+}
+
+
+.box_mid_l{width: 180px;}
+.box_mid_r{ width: calc(100% - 180px);margin-left: auto;}
+
+.dtRange_link{padding-right: 20px;padding-left: 35px;}
+
+
+/* desktop filtering ends here */
+
+/*////////// end //////////////  */
+
